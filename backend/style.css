@@ -1,0 +1,10 @@
+.productimg{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.shirtimg{
+    height: 300px;
+    width: auto;
+}
