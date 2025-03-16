@@ -1,3 +1,4 @@
+// Seller schema
 const Sellers = mongoose.model("Sellers", {
     name:{
         type: String,
