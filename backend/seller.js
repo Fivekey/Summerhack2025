@@ -37,7 +37,7 @@ app.post('/seller/signup', async(req,res) => {
         password:req.body.password,
         craft: req.body.craft
     })
-
+    console.log(seller);
     await seller.save();
 
     const data = {
